@@ -1,0 +1,7 @@
+data class Location(val x: Int, val y: Int) 
+
+fun main() {
+	val aLocation = Location(x = 50, y = 20)
+    println(aLocation)
+    
+}
